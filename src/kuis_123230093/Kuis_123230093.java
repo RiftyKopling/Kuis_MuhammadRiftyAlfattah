@@ -49,7 +49,7 @@ public class Kuis_123230093 {
        
         FpsTeam FPS1 = new FpsTeam();
         FPS1.setName("AyamJago");
-        FPS1.setPlayerCount(5);
+        FPS1.setPlayerCount(3);
         FPS1.joinMatch("MATCH-02");
         FPS1.setPoint(90);
         try{
@@ -63,7 +63,7 @@ public class Kuis_123230093 {
         Moba1.setName("EVOS");
         Moba1.setPlayerCount(5);
         Moba1.joinMatch("MATCH-03");
-        Moba1.setPoint(-10);
+        Moba1.setPoint(10);
         try{
             registerTeam(Moba2);
         }catch(InvalidRosterException e){
