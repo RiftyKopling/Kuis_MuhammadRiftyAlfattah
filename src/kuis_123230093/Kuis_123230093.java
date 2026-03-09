@@ -35,6 +35,8 @@ public class Kuis_123230093 {
         int point, roster;
         Scanner input = new Scanner(System.in);
         
+        // Bagai Diriku ada namun tidak di anggap
+        
         MobaTeam Moba1 = new MobaTeam();
         Moba1.setName("RRQ");
         Moba1.setPlayerCount(5);
